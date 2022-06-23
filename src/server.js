@@ -25,7 +25,7 @@ server.get('/', (req, res) => {
 
 })
 
-server.listen(3001, ()=>{
-  console.log("Running at 3001")
+server.listen(process.env.PORT || 3001, ()=>{
+  console.log("Running at", process.env.PORT || 3001)
   // console.log(MOCK_blocoData)
 })
