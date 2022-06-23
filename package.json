@@ -1,0 +1,17 @@
+{
+  "name": "eja-mock_api",
+  "version": "1.0.0",
+  "description": "This is to simulate the production API and correctly implement front-end functions as next bloco fetching when do user finish the current bloco",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  }
+}
